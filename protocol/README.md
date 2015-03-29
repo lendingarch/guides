@@ -3,13 +3,14 @@ Git Protocol
 
 A guide for programming within version control.
 Inspired by https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md
-Maintain a Repo
+
+Maintaing a Repo
 ---------------
 
 * Avoid including files in source control that are specific to your
   development machine or process.
-* Delete local and remote feature branches after merging.
 * Perform work in a feature branch.
+* Delete local and remote feature branches after merging.
 * Rebase frequently to incorporate upstream changes.
 * Use a [pull request] for code reviews.
 
@@ -24,7 +25,7 @@ Create a local feature branch based off master.
     git pull
     git checkout -b <branch-name>
 
-Prefix the branch name with your initials.
+Prefix the branch name with your initials. For example "ps_issue27".
 
 Rebase frequently to incorporate upstream changes.
 
@@ -45,7 +46,7 @@ Write a [good commit message]. Example format:
     Present-tense summary under 50 characters
 
     * More information about commit (under 72 characters).
-    * More information about commit (under 72 characters).
+    * Even more information about commit (under 72 characters).
 
     http://project.management-system.com/ticket/123
 
