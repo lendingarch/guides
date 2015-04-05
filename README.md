@@ -14,8 +14,8 @@ High level guidelines:
 * Don't rewrite existing code to follow this guide.
 * Don't violate a guideline without a good reason.
 * A reason is good when you can convince a teammate.
-* Don't follow these guides blindly. 
 * Be pragmatic.
+* Don't follow these guides blindly. 
 
 
 
