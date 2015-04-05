@@ -1,7 +1,7 @@
 # Guides
   Guides for getting things done, programming well, and programming in style.
 
-* [Git](/protocol/git)
+* [Git](/git)
 * [Code Review](/code_review)
 * [Best Practices](/best_practices)
 * [Security](/security)
