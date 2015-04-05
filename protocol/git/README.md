@@ -32,7 +32,16 @@ Rebase frequently to incorporate upstream changes.
     git fetch origin
     git rebase origin/master
 
-Resolve conflicts. When feature is complete and tests pass, stage the changes.
+Resolve conflicts with meld or similar tool. 
+
+    git mergetool -t meld
+    
+Do quick self-review before commiting the code. This allows you to catch 
+obvious bugs and unnecessary debug code.
+
+    git difftool
+
+When feature is complete and tests pass, stage the changes.
 
     git add --all
 
@@ -45,12 +54,11 @@ Write a [good commit message]. Example format:
 
     Present-tense summary under 50 characters
 
+    * resolves issie #27
     * More information about commit (under 72 characters).
     * Even more information about commit (under 72 characters).
 
-    http://project.management-system.com/ticket/123
-
-If you've created more than one commit, use a rebase to squash them into
+If you've created more than one commit on the issue branch, use a rebase to squash them into
 cohesive commits with good messages:
 
     git rebase -i origin/master
@@ -79,7 +87,6 @@ web interface or in the project's chat room.
 For changes which they can make themselves, they check out the branch.
 
     git checkout <branch-name>
-    ./bin/setup
     git diff staging/master..HEAD
 
 They make small changes right in the branch, test the feature on their machine,
