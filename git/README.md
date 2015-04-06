@@ -2,10 +2,9 @@ Git Protocol
 ============
 
 A guide for programming within version control.
-Inspired by https://github.com/thoughtbot/guides/blob/master/protocol/git/README.md
 
 Maintaing a Repo
----------------
+----------------
 
 * Avoid including files in source control that are specific to your
   development machine or process.
