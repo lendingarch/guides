@@ -70,3 +70,10 @@ Browsers
 --------
 
 * Don't support versions of Internet Explorer before IE9.
+
+Python
+------
+
+* Read and use [Google Python Style Guide]. In particular read section Comments section
+* 
+[Google Python Style Guide]: https://google-styleguide.googlecode.com/svn/trunk/pyguide.html
